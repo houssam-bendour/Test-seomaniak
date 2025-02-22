@@ -12,6 +12,7 @@ import java.util.UUID;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/project")
+@CrossOrigin(origins = "*")
 public class ProjectController {
 
     private  ProjectService projectService;
