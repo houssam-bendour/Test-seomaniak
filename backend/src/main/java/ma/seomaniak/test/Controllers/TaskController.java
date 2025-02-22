@@ -17,6 +17,7 @@ import org.springframework.data.domain.Pageable;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/tasks")
+@CrossOrigin(origins = "*")
 public class TaskController {
 
     private TaskService taskService;
