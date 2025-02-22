@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Projets</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let project of projects" (click)="openTasks(project.id)">
+      <ion-label>
+        <h2>{{ project.name }}</h2>
+        <p>{{ project.description }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

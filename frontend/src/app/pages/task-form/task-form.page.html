@@ -1,0 +1,18 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Nouvelle Tâche</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Titre</ion-label>
+    <ion-input [(ngModel)]="task.title"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Description</ion-label>
+    <ion-input [(ngModel)]="task.description"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="saveTask()">Enregistrer</ion-button>
+</ion-content>
