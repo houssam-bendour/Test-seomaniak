@@ -7,7 +7,7 @@ Ce projet est une application Angular (frontend) et un backend en [Spring Boo]. 
 ### 1️⃣ Back-end (Spring Boot)  
 1. Cloner le projet :  
    ```sh
-   git clone [https://github.com/ton-projet.git](https://github.com/houssam-bendour/Test-seomaniak.git)
+   git clone https://github.com/houssam-bendour/Test-seomaniak.git
    cd Test-seomaniak/backend
 2. Installer les dépendances avec Maven :
    ```sh
@@ -27,7 +27,7 @@ Ce projet est une application Angular (frontend) et un backend en [Spring Boo]. 
    npm install -g @ionic/cli
 2. Cloner le projet et entrer dans le dossier :
    ```sh
-    git clone [https://github.com/ton-projet.git](https://github.com/houssam-bendour/Test-seomaniak.git)
+    git clone https://github.com/houssam-bendour/Test-seomaniak.git
     cd Test-seomaniak/frontend
    
 3. Installer les dépendances :
